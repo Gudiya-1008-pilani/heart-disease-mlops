@@ -3,7 +3,6 @@ from pathlib import Path
 import pandas as pd
 from ucimlrepo import fetch_ucirepo
 
-
 # Find the project root directory
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 
