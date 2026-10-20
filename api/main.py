@@ -8,7 +8,6 @@ from prometheus_client import Counter, Histogram, generate_latest
 from pydantic import BaseModel
 from starlette.responses import Response
 
-
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s - %(levelname)s - %(message)s",
